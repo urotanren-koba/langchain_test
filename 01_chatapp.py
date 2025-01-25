@@ -1,6 +1,6 @@
 # 必要なライブラリをインポート
 import streamlit as st  # Webアプリケーションを作成するためのライブラリ
-from langchain.chat_models import ChatOpenAI  # ChatGPTのモデルを利用するためのクラス
+from langchain_community.chat_models import ChatOpenAI # ChatGPTのモデルを利用するためのクラス
 from langchain.schema import (  # チャットの各メッセージタイプを定義するクラス
     SystemMessage,  # システムメッセージ用
     HumanMessage,   # ユーザーメッセージ用
